@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend contenteditable="">REGISTRATION</legend>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td><label for="first">FIRST NAME:</label></td>
+                    <td><input type="text" name="first" id="first" placeholder="enter ur name">(max 20 char a-z and A-Z)</td>
+                </tr>
+
+                <tr>
+                    <td><label for="last">LAST NAME:</label></td>
+                    <td><input type="text" name="last" id="last" placeholder="enter ur name">(max 20 char a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><label for="dob">DOB:</label></td>
+                    <td><input type="datetime-local"   name="dob" id="dob"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>Male<input type="radio" name="gender" id="gender"> Female <input type="radio" name="gender" id="gender"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">EMAIL:</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="Email no"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="mobile">Mobile Number:</label></td>
+                    <td><input type="number" name="mobile" id="number" placeholder="Mobile number"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="addr">ADDRESS:</label></td>
+                    <td><textarea name="addr" id="addr" cols="30" rows="10" placeholder="Address"></textarea></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="city">City:</label>(max 20 char a-z and A-Z)</td>
+                    <td><input type="text" name="city" id="city" placeholder="city">(max 20 char a-z and A-Z)</td>
+                </tr>
+
+                <tr>
+                    <td><label for="pin">Pincode:</label></td>
+                    <td><input type="number" name="pin" id="pin"  placeholder="Pincode">(6 digit number)</td>
+                </tr>
+
+                <tr>
+                    <td><label for="state">State:</label></td>
+                    <td><input type="text" name="state" id="state"  placeholder="state"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="country">Country:</label></td>
+                    <td><input type="text" name="country" id="country" placeholder="Country"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="hobby">Hobbies:</label></td>
+                    <td><input type="checkbox" name="hobby" id="hobby"> Drawing
+                        <input type="checkbox" name="hobby" id="hobby"> Dancing
+                    <input type="checkbox" name="hobby" id="hobby"> singing
+                        <input type="checkbox" name="hobby" id="hobby"> others
+                    <input type="text" name="hobby" id="hobby"></td>
+                </tr>
+            </table>
+
+                <table>
+                <tr>
+                    <td><label for="qualif">Qualification:</label></td>
+                    <!-- <td>
+                        <ol style="list-style: none;">slno
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li></ol>
+                    </td> -->
+                    <td><ol type="1">Examination
+                        <li>Class X</li>
+                        <li>Class XI</li>
+                        <li>grad</li>
+                        <li>Master</li>
+                    </ol></td>
+
+                    <td><ul style="list-style:none"> board
+                        <li><input type="text" name="board" id="board"></li>
+                        <li><input type="text" name="board" id="board"></li>
+                        <li><input type="text" name="board" id="board"></li>
+                        <li><input type="text" name="board" id="board"></li></ul>
+                    </td>
+
+                    <td><ul style="list-style:none">percentage
+                        <li><input type="text" name="board" id="board"></li>
+                        <li><input type="text" name="board" id="board"></li>
+                        <li><input type="text" name="board" id="board"></li>
+                        <li><input type="text" name="board" id="board"></li></ul>
+                    </td>
+
+                    <td><ul style="list-style:none"> year of passing
+                        <li><input type="text" name="board" id="board"></li>
+                        <li><input type="text" name="board" id="board"></li>
+                        <li><input type="text" name="board" id="board"></li>
+                        <li><input type="text" name="board" id="board"></li></ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="course">Course applied for</label></td>
+                    <td><input type="checkbox" name="course" id="course"> BCA
+                        <input type="checkbox" name="course" id="course">Bcom
+                        <input type="checkbox" name="course" id="course">Bsc
+                        <input type="checkbox" name="course" id="course">BA
+                        </td>
+                </tr>
+        
+            </table>
+            
+                <table align="center">
+                <tr >
+                    <td><input type="submit" value="submit"></td>
+                    <td><input type="submit" value="cancel"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
